@@ -1,1 +1,13 @@
-hey hi
+https://maven.apache.org/download.cgi
+
+mvn -version 
+
+mvn archetype:generate -DgroupId=com.MSRIT.app -DartifactId=() -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.MSRIT.app -DartifactId=Abhishek -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+cd ()
+
+mvn package
+
+java -cp target/()-1.0-SNAPSHOT.jar com.MSRIT.app.App
